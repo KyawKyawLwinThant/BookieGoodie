@@ -19,6 +19,10 @@ public class CartService {
 		cartItems.add(toCartItem(book));
 	}
 	
+	public void clearCart() {
+		cartItems.clear();
+	}
+	
 	public Set<CartItem> getCartItems() {
 		return cartItems;
 	}
